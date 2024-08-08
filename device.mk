@@ -26,8 +26,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Frameworks-Odin2Portal-Overlay \
     LineageSDK-Odin2Portal-Overlay \
-    Settings-Odin2Portal-Overlay \
-    SettingsProvider-Odin2Portal-Overlay
+    Settings-Odin2Portal-Overlay
 
 # Recovery
 PRODUCT_PACKAGES += \
