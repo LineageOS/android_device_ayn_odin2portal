@@ -7,9 +7,14 @@
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/idc/fts_ts.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/fts_ts.idc
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light-service.lineage
+
 # Overlay
 PRODUCT_PACKAGES += \
     Frameworks-Odin2Portal-Overlay \
+    LineageSDK-Odin2Portal-Overlay \
     Settings-Odin2Portal-Overlay \
     SettingsProvider-Odin2Portal-Overlay
 
