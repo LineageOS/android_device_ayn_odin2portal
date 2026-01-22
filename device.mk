@@ -3,6 +3,13 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Overlay
+PRODUCT_PACKAGES += \
+    Frameworks-Odin2Portal-Overlay \
+    Settings-Odin2Portal-Overlay \
+    SettingsProvider-Odin2Portal-Overlay \
+    SystemUI-Odin2Portal-Overlay
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
