@@ -1,0 +1,78 @@
+## All proprietary files from this list, unless pinned and noted otherwise, are
+## from Odin2P.20250312.203450
+
+# ADSP firmware
+vendor/firmware/adsp.b00
+vendor/firmware/adsp.b01
+vendor/firmware/adsp.b02
+vendor/firmware/adsp.b03
+vendor/firmware/adsp.b04
+vendor/firmware/adsp.b05
+vendor/firmware/adsp.b06
+vendor/firmware/adsp.b07
+vendor/firmware/adsp.b08
+vendor/firmware/adsp.b09
+vendor/firmware/adsp.b10
+vendor/firmware/adsp.b11
+vendor/firmware/adsp.b12
+vendor/firmware/adsp.b13
+vendor/firmware/adsp.b14
+vendor/firmware/adsp.b15
+vendor/firmware/adsp.b16
+vendor/firmware/adsp.b17
+vendor/firmware/adsp.b18
+vendor/firmware/adsp.b19
+vendor/firmware/adsp.b20
+vendor/firmware/adsp.b21
+vendor/firmware/adsp.b22
+vendor/firmware/adsp.b23
+vendor/firmware/adsp.b24
+vendor/firmware/adsp.b25
+vendor/firmware/adsp.b26
+vendor/firmware/adsp.b27
+vendor/firmware/adsp.b28
+vendor/firmware/adsp.b29
+vendor/firmware/adsp.b30
+vendor/firmware/adsp.b31
+vendor/firmware/adsp.b32
+vendor/firmware/adsp.b33
+vendor/firmware/adsp.b34
+vendor/firmware/adsp.b35
+vendor/firmware/adsp.b36
+vendor/firmware/adsp.b37
+vendor/firmware/adsp.b38
+vendor/firmware/adsp.b39
+vendor/firmware/adsp.b40
+vendor/firmware/adsp.b41
+vendor/firmware/adsp.b42
+vendor/firmware/adsp.b43
+vendor/firmware/adsp.b44
+vendor/firmware/adsp.b45
+vendor/firmware/adsp.b46
+vendor/firmware/adsp.b47
+vendor/firmware/adsp.b48
+vendor/firmware/adsp.b49
+vendor/firmware/adsp.b50
+vendor/firmware/adsp.b51
+vendor/firmware/adsp.b52
+vendor/firmware/adsp.b53
+vendor/firmware/adsp.b54
+vendor/firmware/adsp.b55
+vendor/firmware/adsp.b56
+vendor/firmware/adsp.mdt
+vendor/firmware/adsp_dtb.b00
+vendor/firmware/adsp_dtb.b01
+vendor/firmware/adsp_dtb.b02
+vendor/firmware/adsp_dtb.mdt
+
+# Audio firmware
+vendor/firmware/aw883xx_acf.bin
+
+# Controller firmware
+vendor/firmware/mcuapp_firmware.bin
+
+# Display calibration data - From Ayaneo Pocket Evo TKQ1.230811.002/8489
+vendor/etc/display/qdcm_calib_data_ar07_7inch_cmd_mode_dsi_panel.json:vendor/etc/display/qdcm_calib_data_icna3512_amoled_panel_with_DSC.json|433b5d6546e6c8a984fdae9db220cf6a2dc2193e|51c490e53e35e07508f96e957aae91b4d0a833bb
+
+# Sensors
+vendor/etc/sensors/config/kailua_icm426xx_0.json
