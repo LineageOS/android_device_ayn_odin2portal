@@ -1,0 +1,8 @@
+## All proprietary files from this list, unless pinned and noted otherwise, are
+## from 
+
+# Audio firmware
+vendor/firmware/aw883xx_acf.bin
+
+# Display calibration data - From Ayaneo Pocket Evo scm10120550
+vendor/etc/display/qdcm_calib_data_ar07_7inch_cmd_mode_dsi_panel.json:vendor/etc/display/qdcm_calib_data_icna3512_amoled_panel_with_DSC.json|0446b926c8b673823a42320f1d07fae361ab6c9b|c3d402b62bdfd8760ff6c7f6e674e614605f6ef7
