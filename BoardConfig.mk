@@ -12,5 +12,9 @@ include device/ayn/qcs8550-common/BoardConfigCommon.mk
 DEVICE_PROPERTIES_PATH := $(DEVICE_PATH)/properties
 TARGET_VENDOR_PROP += $(DEVICE_PROPERTIES_PATH)/vendor.prop
 
+# Recovery
+TARGET_RECOVERY_DEFAULT_ROTATION := ROTATION_LEFT
+TARGET_RECOVERY_DEFAULT_TOUCH_ROTATION := ROTATION_LEFT
+
 # Include the proprietary files BoardConfig.
 include vendor/ayn/odin2portal/BoardConfigVendor.mk
