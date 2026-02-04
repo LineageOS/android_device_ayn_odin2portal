@@ -1,2 +1,6 @@
 # Bluetooth
 bluetooth.device.default_name=Odin2 Portal
+
+# Display
+debug.sf.ignore_hwc_physical_display_orientation=true
+ro.surface_flinger.primary_display_orientation=ORIENTATION_90
