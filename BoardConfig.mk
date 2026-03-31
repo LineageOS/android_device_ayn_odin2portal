@@ -8,6 +8,9 @@ DEVICE_PATH := device/ayn/odin2portal
 # Include the common OEM chipset BoardConfig.
 include device/ayn/qcs8550-common/BoardConfigCommon.mk
 
+# DTBO
+TARGET_MERGE_DTBOS_WILDCARD := *ayn-odin2-portal*
+
 # Properties
 DEVICE_PROPERTIES_PATH := $(DEVICE_PATH)/properties
 TARGET_VENDOR_PROP += $(DEVICE_PROPERTIES_PATH)/vendor.prop
