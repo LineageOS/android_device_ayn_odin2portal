@@ -8,6 +8,9 @@ include device/ayn/qcs8550-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/ayn/odin2portal
 
+# DTBO
+TARGET_MERGE_DTBOS_WILDCARD := *ayn-odin2-portal*
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
