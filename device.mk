@@ -3,6 +3,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Controller
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/controller/mcuapp_firmware.txt:$(TARGET_COPY_OUT_VENDOR)/vendor/firmware/mcuapp_firmware.txt
+
 # IDC
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/idc/fts_ts.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/fts_ts.idc
