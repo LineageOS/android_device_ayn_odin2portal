@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "247903f7_a8559643",
+        "filename": "lineage_odin2portal.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 29242
+      },
+      "writtenOn": "2026-06-23T08:53:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a6c73951_5f495cff",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 20
+      },
+      "revId": "47f37b5a31fbc10a2cf3b470af5013c004530829",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "54d56445_dcb05974",
@@ -37,6 +61,30 @@
       "writtenOn": "2026-02-21T22:31:06Z",
       "side": 1,
       "message": "Probably needs adjustments",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 24
+      },
+      "revId": "47f37b5a31fbc10a2cf3b470af5013c004530829",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "637351ec_8772647f",
+        "filename": "lineage_odin2portal.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 29242
+      },
+      "writtenOn": "2026-06-23T08:53:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "54d56445_dcb05974",
       "range": {
         "startLine": 26,
         "startChar": 0,
