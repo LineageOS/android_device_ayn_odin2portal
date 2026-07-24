@@ -25,6 +25,10 @@ PRODUCT_PACKAGES += \
     Settings-Odin2Portal-Overlay \
     SettingsProvider-Odin2Portal-Overlay
 
+# Recovery
+PRODUCT_PACKAGES += \
+    recovery_rgb
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
