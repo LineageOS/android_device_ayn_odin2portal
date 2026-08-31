@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise, are
-## from Odin2P.20250312.203450
+## from Odin2P.20260319.182423
 
 # ADSP firmware
 vendor/firmware/adsp.b00
