@@ -3,6 +3,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Define some product characteristics
+PRODUCT_NO_CAMERA := true
+PRODUCT_IS_GAMING_HANDHELD := true
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
@@ -11,7 +15,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, device/ayn/odin2portal/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/lineage/config/common_handheld_console_wifionly.mk)
 
 PRODUCT_NAME := lineage_odin2portal
 PRODUCT_DEVICE := odin2portal
